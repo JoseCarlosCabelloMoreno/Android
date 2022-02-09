@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/eunbi2"
-        android:adjustViewBounds="true"
-       />
+    <data>
 
-    <EditText
-        android:id="@+id/edad"
+    </data>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/say_your_age"
-        android:gravity="center"
-        android:inputType="number"
-        android:layout_marginTop="16dp"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/boton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:textColor="@color/black"
-        android:hint="@string/calculate"
-        android:backgroundTint="@color/material_on_surface_stroke"
-        />
-    <TextView
-        android:id="@+id/resul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/age"
-        android:textColor="@color/black"
-        android:textSize="16dp"
-        android:gravity="center"
-        android:padding="16dp"
-        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eunbi2"
+            android:adjustViewBounds="true" />
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/say_your_age"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/black"
+            android:hint="@string/calculate"
+            android:backgroundTint="@color/material_on_surface_stroke" />
+
+        <TextView
+            android:id="@+id/resul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</layout>
