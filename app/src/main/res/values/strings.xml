@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Edad_Canina</string>
+    <string name="app_name" translatable="false">Edad_Canina</string>
+    <string name="Input">Ingresa un numero</string>
+    <string name="calculate">Calcular</string>
+    <string name="age">Tu edad canina es....</string>
+    <string name="say_your_age">Dime tu edad</string>
 </resources>

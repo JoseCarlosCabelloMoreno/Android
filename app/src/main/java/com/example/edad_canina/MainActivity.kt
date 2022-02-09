@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
             var resultado=edad.text.toString()
             if (resultado.isNotEmpty()){
                 var edadResultado=resultado.toInt()
-                edadResultado=edadResultado*7
+                edadResultado *= 7
                 result.text=edadResultado.toString()
             }else{
-                Toast.makeText(this, "Ingresa un numero", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.Input, Toast.LENGTH_SHORT).show()
             }
         }
     }

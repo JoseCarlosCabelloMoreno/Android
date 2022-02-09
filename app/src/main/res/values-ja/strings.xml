@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Input">何歳ですか</string>
+    <string name="calculate">計算します</string>
+    <string name="age">犬の才であなたの才は....</string>
+    <string name="say_your_age">何歳ですか</string>
+</resources>
