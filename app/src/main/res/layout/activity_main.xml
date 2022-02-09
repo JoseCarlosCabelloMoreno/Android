@@ -12,20 +12,12 @@
         android:src="@drawable/diosa"
         android:adjustViewBounds="true"
        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dime tu edad!"
-        android:textColor="@color/black"
-        android:textSize="16dp"
-        android:gravity="center"
-        android:padding="16dp"
-         />
+
     <EditText
         android:id="@+id/edad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tu edad Canina es...."
+        android:hint="Dime tu edad"
         android:gravity="center"
         android:inputType="number"
         />
