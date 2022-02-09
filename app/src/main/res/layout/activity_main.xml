@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/diosa"
+        android:src="@drawable/eunbi2"
         android:adjustViewBounds="true"
        />
 
@@ -20,7 +20,9 @@
         android:hint="Dime tu edad"
         android:gravity="center"
         android:inputType="number"
+        android:layout_marginTop="16dp"
         />
+
     <Button
         android:id="@+id/boton"
         android:layout_width="match_parent"
@@ -29,8 +31,18 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
         android:textColor="@color/black"
-        android:hint="hola"
+        android:hint="Calcular"
         android:backgroundTint="@color/material_on_surface_stroke"
+        />
+    <TextView
+        android:id="@+id/resul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu edad canina es...."
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:padding="16dp"
         />
 
 </LinearLayout>

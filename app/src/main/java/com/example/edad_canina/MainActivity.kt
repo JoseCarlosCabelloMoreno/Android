@@ -11,14 +11,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var boton=findViewById<Button>(R.id.boton)
-        var edad=findViewById<TextView>(R.id.edad)
-        var resultado=edad.text.toString()
-        var edadResultado=resultado.toInt()
+        val boton=findViewById<Button>(R.id.boton)
+        val edad=findViewById<TextView>(R.id.edad)
+        val result=findViewById<TextView>(R.id.resul)
         boton.setOnClickListener{
+            var resultado=edad.text.toString()
             if (resultado.isNotEmpty()){
+                var edadResultado=resultado.toInt()
                 edadResultado=edadResultado*7
-                edad.text=edadResultado.toString()
+                result.text=edadResultado.toString()
             }else{
                 Toast.makeText(this, "Ingresa un numero", Toast.LENGTH_SHORT).show()
             }
